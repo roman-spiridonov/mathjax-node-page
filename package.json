@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/roman-spiridonov/mathjax-node-page#readme",
   "dependencies": {
-    "mathjax-node": "^1.0.0",
+    "mathjax-node": "^1.2.0",
+    "nested-config": "^1.0.1",
     "yargs": "*"
   },
   "devDependencies": {
