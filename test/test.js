@@ -11,6 +11,10 @@ function dos2nix(fileStr) {
     return fileStr.replace(/\r\n/g, "\n");
 }
 
+function removeStyles(fileStr) {
+    return fileStr.replace(/<style>[\s\S]*?<\/style>/g, "");
+}
+
 function checkFileStrEql(fileStr1, fileStr2) {
     return ( dos2nix(fileStr1) === dos2nix(fileStr2) );
 }
