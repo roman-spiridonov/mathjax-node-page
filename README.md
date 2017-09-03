@@ -4,7 +4,7 @@
 
 This Node.js module builds on [mathjax-node](https://github.com/mathjax/mathjax-node) and provides processing of larger content fragments
 
-## installation
+## Installation
 
 Use
 
@@ -156,3 +156,6 @@ mjpage(input, {format: ["TeX"]}, {svg: true}, function(output) {
     console.log(output); // resulting HTML string
 });
 ```
+
+## Tips
+* `mathjax-node-page` is intended to work with HTML pages and it uses DOM parser while extracting formulas from the document. If your page is not HTML, make sure you escape < (`&lt;`) and > (`&gt;`) before usage. [This test](test/markdown-test.js) contains an example.

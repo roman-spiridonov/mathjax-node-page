@@ -24,12 +24,10 @@ tape('Configuration options for jsdom', function (t) {
         });
     exec(`cat test/data/config-jsdom-input1.js | node`,
         function (error, stdout, stderr) {
-            if (stderr) throw stderr;
             t.equal(stdout, '', 'jsdom: virtual console default off');
         });
     exec(`cat test/data/config-jsdom-input2.js | node`,
         function (error, stdout, stderr) {
-            if (stderr) throw stderr;
             t.equal(stdout, 'error\n', 'jsdom: virtual console on');
         });
 });

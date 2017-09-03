@@ -1,6 +1,6 @@
 {
   "name": "@romars/mathjax-node-page",
-  "version": "1.5.0",
+  "version": "1.5.2",
   "description": "Converter for HTML fragments with mathematics using mathjax-node",
   "main": "./lib/main.js",
   "scripts": {
@@ -34,6 +34,7 @@
     "yargs": "*"
   },
   "devDependencies": {
+    "debug": "^3.0.1",
     "mathjax-node-svg2png": "^1.1.0",
     "sinon": "^3.2.1",
     "tape": "^4.5.1"
