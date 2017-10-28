@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/roman-spiridonov/mathjax-node-page#readme",
   "dependencies": {
-    "mathjax-node": "^1.2.0",
-    "nested-config": "^1.0.1",
-    "yargs": "*"
-  },
+    "mathjax-node": "^1.0.0",
+    "yargs": "^8.0.2",
+    "nested-config": "^1.0.1"
+},
   "devDependencies": {
     "debug": "^3.0.1",
     "mathjax-node-svg2png": "^1.1.0",
